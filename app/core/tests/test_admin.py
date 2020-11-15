@@ -40,7 +40,6 @@ class AdminSiteTests(TestCase):
 
         self.assertEqual(res.status_code, 200)
 
-
     # def calculate_statistics(self, purchases):
     #     average_purchase = sum(purchases) / len(purchases)
     #     largest_purchase = max(purchases)
